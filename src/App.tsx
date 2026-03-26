@@ -69,7 +69,7 @@ const PROJECTS: Project[] = [
 
 const SKILLS = {
   design: ["Photoshop", "Illustrator", "Figma", "Adobe XD", "상세페이지", "SNS 디자인", "배너", "로고", "패키지"],
-  development: ["HTML5", "CSS3", "JavaScript", "Python", "Dart", "Flutter", "jQuery", "Oracle SQL"]
+  development: ["HTML5", "CSS3", "JavaScript", "Python", "Pandas", "Numpy", "flask", "Django","Dart", "Flutter", "jQuery", "Oracle SQL"]
 };
 
 // --- Components ---
@@ -223,12 +223,12 @@ export default function App() {
             className="relative rounded-[2.5rem] overflow-hidden aspect-[16/9] lg:aspect-[21/9] shadow-2xl"
           >
             <img 
-              src="https://picsum.photos/seed/creative/1920/1080" 
+              src="https://i.ifh.cc/Fj9qAN.jpg/1920/1080" 
               alt="Creative Workspace" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover brightness-100"
               referrerPolicy="no-referrer"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-white/10 to-transparent"></div>
           </motion.div>
         </div>
       </section>
