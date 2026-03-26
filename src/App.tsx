@@ -223,7 +223,7 @@ export default function App() {
             className="relative rounded-[2.5rem] overflow-hidden aspect-[16/9] lg:aspect-[21/9] shadow-2xl"
           >
             <img 
-              src="https://i.ifh.cc/Fj9qAN.jpg/1920/1080" 
+              src="https://i.ifh.cc/Vx2j5X.jpg/1920/1080" 
               alt="Creative Workspace" 
               className="w-full h-full object-cover brightness-100"
               referrerPolicy="no-referrer"
